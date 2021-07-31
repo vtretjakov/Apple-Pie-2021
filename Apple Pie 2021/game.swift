@@ -19,7 +19,7 @@ struct Game {
     var guessedWord: String {
         var wordToShow = "" /// String()  или  String.init() - эквивалентно
         for letter in word {
-            if guessedLetters.contains(Character(letter.lowercased())) {
+            if guessedLetters.contains(Character(letter.lowercased())) || letter == "-" || letter == " " {
                 wordToShow += String(letter)
             } else {
                 wordToShow += "_"
