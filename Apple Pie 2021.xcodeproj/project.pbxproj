@@ -13,7 +13,7 @@
 		C4D17D4226B14FB7007CDD5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D17D4026B14FB7007CDD5E /* Main.storyboard */; };
 		C4D17D4426B14FB8007CDD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D17D4326B14FB8007CDD5E /* Assets.xcassets */; };
 		C4D17D4726B14FB8007CDD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D17D4526B14FB8007CDD5E /* LaunchScreen.storyboard */; };
-		C4D17D4F26B4023D007CDD5E /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D17D4E26B4023D007CDD5E /* game.swift */; };
+		C4D17D4F26B4023D007CDD5E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D17D4E26B4023D007CDD5E /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		C4D17D4326B14FB8007CDD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D17D4626B14FB8007CDD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4D17D4826B14FB8007CDD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4D17D4E26B4023D007CDD5E /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
+		C4D17D4E26B4023D007CDD5E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				C4D17D4326B14FB8007CDD5E /* Assets.xcassets */,
 				C4D17D4526B14FB8007CDD5E /* LaunchScreen.storyboard */,
 				C4D17D4826B14FB8007CDD5E /* Info.plist */,
-				C4D17D4E26B4023D007CDD5E /* game.swift */,
+				C4D17D4E26B4023D007CDD5E /* Game.swift */,
 			);
 			path = "Apple Pie 2021";
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 				C4D17D3F26B14FB7007CDD5E /* ViewController.swift in Sources */,
 				C4D17D3B26B14FB7007CDD5E /* AppDelegate.swift in Sources */,
 				C4D17D3D26B14FB7007CDD5E /* SceneDelegate.swift in Sources */,
-				C4D17D4F26B4023D007CDD5E /* game.swift in Sources */,
+				C4D17D4F26B4023D007CDD5E /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

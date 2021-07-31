@@ -13,12 +13,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var treeImageView: UIImageView!
     @IBOutlet var letterButtons: [UIButton]!
-    @IBOutlet weak var coorectWordLabel: UILabel!
+    @IBOutlet weak var correctWordLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     
     
     //MARK: - Properties
-    var currectGame: Game! /// ! - значение опциональное но мы с ним раработаем как будто оно имеет значение. Т.е мы уверенны когда к корректгейм обратимся у нас там будут значения т.е мы сначала присвоим потом будем использовать. Не проверяет значение. Минус в том если значения не будет то вылетит в процессе исполнения а не во время компеляции.
+    var currectGame: Game! /// ! - значение опциональное но мы с ним работаем как будто оно имеет значение. Т.е мы уверенны когда к корректгейм обратимся у нас там будут значения т.е мы сначала присвоим потом будем использовать. Не проверяет значение. Минус в том если значения не будет то вылетит в процессе исполнения а не во время компеляции.
     let incorrectMovesAllowed = 7
     var listofWords = [
         "Александрия",
@@ -114,10 +114,21 @@ class ViewController: UIViewController {
         updateUI()
     }
     
+    func updateCorrectWordLabel() {
+        var displayWord = [String]()
+        for letter in currectGame.guessedWord {
+            displayWord.append(String(letter))
+        }
+        correctWordLabel.text = displayWord.joined(separator: " ")
+    }
+    
+    
     func updateUI() {
         let movesRemaining = currectGame.incorrectMovesRemaining
-        let image = "Tree\(movesRemaining < 8 ? movesRemaining : 7)" /// ? - то
+        let imageNumber = (movesRemaining + 64) % 8 /// movesRemaining < 0 ? 0 : movesRemaining < 8 ? movesRemaining : 7 второй вариант, ? - то : - иначе
+        let image = "Tree\(imageNumber)"
         treeImageView.image = UIImage(named: image)
+        updateCorrectWordLabel()
         scoreLabel.text = "Выигрыши: \(totalWins), Проигрыши: \(totalLosses)"
     }
     
@@ -132,6 +143,9 @@ class ViewController: UIViewController {
     
     @IBAction func letterButtonPressed(_ sender: UIButton) {
         sender.isEnabled = false
+        let letter = sender.title(for: .normal)!
+        currectGame.playerGussed(letter: Character(letter))
+        updateUI() /// обновление
     }
     
 }
