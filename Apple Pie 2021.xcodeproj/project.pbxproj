@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4663CE426B6F026007ABDAF /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = C4663CE126B6F026007ABDAF /* Screenshot02.png */; };
-		C4663CE526B6F026007ABDAF /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = C4663CE226B6F026007ABDAF /* Screenshot03.png */; };
-		C4663CE626B6F026007ABDAF /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = C4663CE326B6F026007ABDAF /* Screenshot01.png */; };
 		C4D17D3B26B14FB7007CDD5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D17D3A26B14FB7007CDD5E /* AppDelegate.swift */; };
 		C4D17D3D26B14FB7007CDD5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D17D3C26B14FB7007CDD5E /* SceneDelegate.swift */; };
 		C4D17D3F26B14FB7007CDD5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D17D3E26B14FB7007CDD5E /* ViewController.swift */; };
@@ -20,9 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C4663CE126B6F026007ABDAF /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
-		C4663CE226B6F026007ABDAF /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
-		C4663CE326B6F026007ABDAF /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		C4D17D3726B14FB7007CDD5E /* Apple Pie 2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie 2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D17D3A26B14FB7007CDD5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4D17D3C26B14FB7007CDD5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,20 +39,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C4663CE026B6F026007ABDAF /* Screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				C4663CE126B6F026007ABDAF /* Screenshot02.png */,
-				C4663CE226B6F026007ABDAF /* Screenshot03.png */,
-				C4663CE326B6F026007ABDAF /* Screenshot01.png */,
-			);
-			path = Screenshots;
-			sourceTree = SOURCE_ROOT;
-		};
 		C4D17D2E26B14FB7007CDD5E = {
 			isa = PBXGroup;
 			children = (
-				C4663CE026B6F026007ABDAF /* Screenshots */,
 				C4D17D3926B14FB7007CDD5E /* Apple Pie 2021 */,
 				C4D17D3826B14FB7007CDD5E /* Products */,
 			);
@@ -146,10 +129,7 @@
 			files = (
 				C4D17D4726B14FB8007CDD5E /* LaunchScreen.storyboard in Resources */,
 				C4D17D4426B14FB8007CDD5E /* Assets.xcassets in Resources */,
-				C4663CE626B6F026007ABDAF /* Screenshot01.png in Resources */,
 				C4D17D4226B14FB7007CDD5E /* Main.storyboard in Resources */,
-				C4663CE526B6F026007ABDAF /* Screenshot03.png in Resources */,
-				C4663CE426B6F026007ABDAF /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
