@@ -58,6 +58,7 @@
 		C4D17D2E26B14FB7007CDD5E = {
 			isa = PBXGroup;
 			children = (
+				C4663CE026B6F026007ABDAF /* Screenshots */,
 				C4D17D3926B14FB7007CDD5E /* Apple Pie 2021 */,
 				C4D17D3826B14FB7007CDD5E /* Products */,
 			);
@@ -74,7 +75,6 @@
 		C4D17D3926B14FB7007CDD5E /* Apple Pie 2021 */ = {
 			isa = PBXGroup;
 			children = (
-				C4663CE026B6F026007ABDAF /* Screenshots */,
 				C4D17D3A26B14FB7007CDD5E /* AppDelegate.swift */,
 				C4D17D3C26B14FB7007CDD5E /* SceneDelegate.swift */,
 				C4D17D3E26B14FB7007CDD5E /* ViewController.swift */,
